@@ -1,0 +1,448 @@
+/* Base CSS */
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+p {
+	font-size: 17px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.header-main{
+	background-image:url(../img/menu-area.png);
+	width:100%;
+	min-height: 140px;
+	background-size:cover;
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+/* Trader partner start */
+.trader-partner{
+	background-image:url(../img/bg-first.jpg);
+	width:100%;
+	min-height: 756px;
+	background-size:cover;
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+
+.bg-first {
+  text-align: center;
+  color: #fff;
+  margin-top: 12%;
+}
+.bg-first h2 {
+	font-size: 36pt;
+	margin: 10% 0 3%;
+	text-transform: uppercase;
+}
+.bg-first p {
+  font-size: 18pt;
+}
+.custom-btn {
+	display: block;
+	border: 1px solid red;
+	width: 22%;
+	padding: 15px 0;
+	color: #fff;
+	font-size: 16pt;
+	background: red;
+	border-radius: 5px;
+	margin: 0 auto;
+	text-transform: uppercase;
+}
+.custom-btn:hover, .btn-calculate:hover {
+	color: #bfbcbc;
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+}
+.bg-first ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 10%;
+}
+.bg-first ul li {
+  display: inline-block;
+  margin: 0 35px;
+  font-size: 21px;
+  color:#dadada;
+}
+.text-p {
+	display: block;
+	width: 55%;
+	font-size: 10pt;
+	margin: 0 auto;
+	margin-bottom: 60px;
+	margin-top: 40px;
+	background: #303441;
+	padding: 23px;
+	text-decoration: none;
+	line-height: 26px;
+}
+.f-bold {
+	font-weight: bold;
+	color: #fff;
+}
+/* Trader partner end */
+/* best broker area start */
+.best-broker {
+	padding: 115px 0 80px;
+}
+.img-left-area h4 {
+  margin: 25px 0;
+  font-size: ;
+}
+.textarea-right p {
+	text-align: justify;
+	line-height: 30px;
+	font-size: 18px;
+	margin-bottom: 5%;
+}
+.img-left-area p {
+	font-size: 16px;
+}
+/* best broker area end */
+
+/* How it works start */
+
+.how-it {
+  text-align: center;
+  background: #f7f7f7;
+  padding: 5% 0px;
+}
+.text-how-it h2 {
+	text-transform: uppercase;
+	margin: 0px 0 60px;
+}
+.registration-a img {
+	width: 85%;
+	min-height: 165px;
+	margin: 0 auto;
+	margin-bottom: 25px;
+}
+.arrow-left-a {
+	width: 100%;
+	height: auto;
+	margin-top: 65px;
+}
+.registration-a h4 {
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 30px;
+	text-transform: capitalize;
+}
+/* How it works end */
+
+/* Calculate the amount of commission start*/
+
+.calculate {
+	text-align: center;
+	padding: 4% 0;
+}
+.calculate-text h2 {
+	text-transform: uppercase;
+	margin: 0px 0 60px;
+}
+.input-put select, .input-put input {
+	width: 100%;
+	border: 1px solid #dadada;
+	padding: 10px;
+	float:left;
+	color:#808080;
+	min-height: 42px;
+}
+.text-l {
+	float: left !important;
+	font-size: 19px;
+	margin-bottom: 20px;
+	color:#808080;
+}
+#myRange {
+	width: 60%;
+	float: left;
+}
+.text-sp {
+	width: 39%;
+	float: right;
+	border: 1px solid #dadada;
+	padding: 10px;
+}
+.btn-calculate {
+	border: 1px solid #22b14c;
+	background-color: #22b14c;
+	display: block;
+	width: 17%;
+	font-size: 24px;
+	padding: 6px;
+	margin: 0 auto;
+	color: #fff;
+	margin-top: 3%;
+	border-radius: 5px;
+}
+.input-all-c {
+	background: #f7f7f7;
+	padding: 45px;
+}
+.advantages-ins {
+	text-align: center;
+}
+/* Calculate the amount of commission end */
+
+/* The advantages of InstaForex start */
+
+.advantages-ins{
+	background-image:url(../img/bg2.jpg);
+	width:100%;
+	min-height: 585px;
+	background-size:cover;
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.text-advance h2 {
+	color: #fff;
+	margin: 10% 0 6%;
+	text-transform: uppercase;
+}
+.text-advance span {
+	display: block;
+	width: 55%;
+	margin: 0 auto;
+	margin-bottom: 5%;
+}
+
+.why-choose {
+  text-align: center;
+  padding: 5%;
+}
+.text-why h2 {
+  margin-bottom: 5%;
+  text-transform: uppercase;
+}
+.img-bgs h5 {
+	text-align: left;
+	font-weight: normal;
+	line-height: 20px;
+	margin-left: 5%;
+	position:relative;
+	padding-top: 8px;
+	min-height: 48px;
+}
+.img-bgs h5::after {
+	position: absolute;
+	left: -15px;
+	top: 0;
+	width: 2px;
+	height: 50px;
+	background: #54b570;
+	content: "";
+}
+.img-bgs img {
+	width: 100%;
+	height: auto;
+}
+.m-none {
+	margin-top: 8%;
+}
+/* The advantages of InstaForex end */
+
+/* Promotional materials start */
+.promotional-materials{
+	background-image:url(../img/bg4.jpg);
+	width:100%;
+	min-height: 705px;
+	background-size:cover;
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.promotion-text h2 {
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 10% 0;
+}
+.icons-mart, .icons-mart2 {
+	text-align: center;
+}
+.icons-mart img {
+	width: 25%;
+	margin: 0 auto;
+	height: auto;
+}
+.img-sre h4 {
+	font-weight: normal;
+	color: #fff;
+	margin-top: 30px;
+}
+.img-sre {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	border: 1px solid #fe0606;
+	margin:0 auto;
+}
+.icons-mart img, .icons-mart2 img {
+	width: 50%;
+	margin: 0 auto;
+	height: 50px;
+	margin-top: 25px;
+}
+.img-w-t h4 {
+	color: #fff;
+	font-weight: normal;
+	margin-top: 7%;
+	line-height: 30px;
+}
+.icons-mart2 {
+	margin-top: 2%;
+}
+/* Promotional materials end */
+/* bannar area start */
+.b-img img {
+	width: 100%;
+	height: auto;
+}
+.banner-area {
+	margin-top: 5%;
+}
+.bannar-2 {
+	margin-top: 3%;
+}
+/* banner area end */
+
+
+/* footer-area start */
+.social-icons {
+	margin-top: 12px;
+}
+.menu-btn ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.social-icons ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-top: -10px;
+}
+.social-icons ul li {
+	display: inline-block;
+	margin-left: 6%;
+	border: 1px solid #fff;
+	width: 45px;
+	text-align: center;
+	height: 40px;
+}
+.menu-btn ul li {
+	display: inline-block;
+	margin-right: 3%;
+	border: 1px solid #fff;
+	padding: 10px 26px;
+}
+.menu-btn ul li a {
+	text-decoration: none;
+	color: #fff;
+}
+.footer-area{
+	background-image:url(../img/bg5.jpg);
+	width:100%;
+	min-height: 370px;
+	background-size:cover;
+	background-position:center center;
+	background-repeat:no-repeat;
+}
+.text-area-all {
+	margin-top: 8%;
+}
+.social-icons ul li a {
+	font-size: 26px;
+	color: #fff;
+}
+
+.menus-f-la ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.menus-f-la ul li {
+  display: inline-block;
+  margin-right: 1%;
+}
+.menus-f-la ul li a {
+	color: #fff;
+	font-size: 12px;
+}
+.m-custom {
+	width: 12%;
+}
+.m-custom a {
+	color: #979aa3 !important;
+	font-size: 16px !important;
+}
+.bottom-menu {
+	margin-top: 5%;
+}
+
+.copy-rights {
+  color: #fff;
+  margin-top: 3.5%;
+}
+.texts-align {
+  float: left;
+}
+.text-rig {
+  float: right;
+}
+.ber-left {
+	font-size: 17px;
+	line-height: 32px;
+	margin-left: 9px;
+}
+.menu-btn img {
+	width: 20px;
+	height: auto;
+	margin-right: 13px;
+}
+/* footer-area end */
+
+/* social icons start */
+.icons-s {
+	position: fixed;
+	right: 0;
+	top: 40%;
+	z-index: 999;
+}
+.icons-s ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.icons-s ul li {
+	background: red;
+	margin-top: 12px;
+	padding: 10px 13px;
+	width: 60px;
+	height: 60px;
+	border-radius: 5px;
+}
+.icons-s img {
+	width: 35px;
+	height: 35px;
+}
+
+/* social icons end */
